@@ -1,2 +1,10 @@
-1. Add Dockerfile, template.yml and groovy files by generating the scripts through Cakra
-2. Change the `nService` name in all the groovy files to not contain upper cases (the pipeline in Cakra will fail if `nService` contains upper case)
+## WHAT TO DO AFTER CLONE
+
+1. `npm install`
+2. `npm run start`
+3. Open `localhost:3009` with available endpoints below:
+* GET /api/courses
+* GET /api/courses/:id
+* POST /api/courses
+* PATCH /api/courses/:id
+* DELETE /api/courses/:id
